@@ -1,0 +1,245 @@
+/*-----------------------------------*/
+/*--------------  Index  ------------*/
+/*-----------------------------------*/
+
+
+
+
+/*----------  footer  ----------*/
+#Bfooter{
+	width: 100%;
+	height: 440px;
+	border-top: 2px solid #fe595d;
+	background-color: #2b2d2e;
+	background-image: url(../img/footer-bg.png);
+}
+
+
+
+
+#Bfooter .Bfooter-wrap{
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+
+
+
+#Bfooter .Bfooter-contact{
+	float: left;
+	margin-left: 20px;
+	margin-top: 60px;
+	margin-right: 20px;
+	color: #aaa;
+	line-height: 20px;
+}
+#Bfooter .Bfooter-contact i{
+	margin-right: 10px;
+}
+#Bfooter .Bfooter-contact p a{
+	color: #b1d1e8;
+}
+#Bfooter .Bfooter-contact .fa-microphone{
+	margin-right: 5px;
+}
+#Bfooter .Bweixin-QRcode{
+	width: 120px;
+	height: 120px;
+	float: right;
+	margin-right: 80px;
+	margin-top: 100px;
+	text-align: center;
+}
+#Bfooter .Bweixin-QRcode img{
+	width: 100px;
+	height: 100px;
+	margin-bottom: 5px;
+}
+#Bfooter .Bweixin-QRcode p{
+	color: #aaa;
+	font-size: 12px;
+}
+#Bfooter .Bfooter-title{
+	display: inline-block;
+	color: #ff946e;
+}
+#online-chat{
+	text-align: center;
+	display: block;
+	width: 112px;
+	height: 24px;
+	color: #fff;
+	background: #ff946e;
+    border: 1px solid #ff946e;
+    margin-top: 18px;
+    border-radius: 6px;
+    line-height: 22px;
+    cursor: pointer;
+}
+#allmap{
+	width: 40%;
+	height: 280px;
+	float: left;
+	margin-bottom: 20px;
+	-webkit-box-shadow: 0 5px 20px #ccc;
+    -moz-box-shadow: 0 5px 20px #ccc;
+    -ms-box-shadow: 0 5px 20px #ccc;
+    -o-box-shadow: 0 5px 20px #ccc;
+    box-shadow: 0 5px 20px #ccc;
+    border-bottom: 1px solid #CCC;
+    border-top: 1px solid #CCC;
+    margin-top: 20px;
+
+}
+#Bfooter .Bfooter-detail{
+	height: 50px;
+	width: 100%;
+}
+#Bfooter .Bcopyright{
+	float: left;
+	line-height: 50px;
+	/*margin-left: 20px;*/
+	color: #aaa;
+}
+#Bfooter .Bfooter-detail .Bweb-secure{
+	width: 280px;
+	height: 40px;
+	float: left;
+}
+#Bfooter .Bfooter-detail .Bweb-secure p{
+	margin-top: 15px;
+	margin-left: 20px;
+	color: #aaa;
+	float: left;
+}
+
+#Bfooter .Bfooter-detail .Bweb-secure a{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-top: 15px;
+	margin-right: 10px;
+	float: left;
+	border-radius: 5px;
+	opacity: 0.6;
+}
+#Bfooter .Bfooter-detail .Bweb-secure a:hover{
+	opacity: 1;
+}
+
+
+#Bfooter .Bshare{
+
+}
+
+#Bfooter .Bshare .Bshare-list li{
+	margin-top: 10px;
+	text-align: center;
+	margin-left: 10px;
+	float: right;
+}
+
+#Bfooter .Bshare .Bshare-list li a{
+	display: block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	background: rgba(0,0,0,.5);
+	color: #fff;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+#Bfooter .Bshare .Bshare-list .mail:hover{
+    background: #6495ED;
+    color: #fff;
+}
+#Bfooter .Bshare .Bshare-list .qq:hover{
+    background: #70CEF9;
+    color: #fff;
+}
+#Bfooter .Bshare .Bshare-list .weibo:hover{
+    background: #FFC72C;
+    /*color: #F10013;*/
+    color: #E52A22;
+
+}
+#Bfooter .Bshare .Bshare-list .wechat:hover{
+    background: #289D3E;
+    color: #fff;
+}
+
+
+
+
+#Bfixed-tool{
+	position: fixed;
+    left: 50%;
+    top: 70%;
+    margin-left: 590px;
+    z-index: 50;
+
+    
+}
+#Bfixed-tool .Bfixed-show{
+	
+}	
+#Bfixed-tool .Bfixed-show a{
+	display: block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	background: #fff;
+	border: 1px solid #d7dde3;
+	border-radius: 2px 2px 0 0;	
+	text-align: center;
+}
+/*#Bfixed-tool .Bfixed-show a.to-top{
+	display: none;
+}*/
+#Bfixed-tool .Bfixed-show span{
+	font-size: 22px;
+	color: #8e9ca9;
+}
+#Bfixed-tool .Bfixed-active-qr{
+	width: 140px;
+	height: 160px;
+	background: #fff;
+	position: absolute;
+	top: 0;
+	right: 50px;
+	text-align: center;
+	border: 1px solid #d7dde3;
+	color: #1b5ba7;
+	/*display: none;*/
+}
+#Bfixed-tool .Bfixed-active-qr img{
+	width: 80px;
+	height: 80px;
+	border: 1px solid #d7dde3;
+	margin-top: 20px;
+	padding: 10px;
+
+}
+#Bfixed-tool .Bfixed-active-top{
+	position: absolute;
+	top: 42px;
+	right: 42px;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	display: inlie-block;
+	color: #fff;
+	background: #ff946e;
+    border: 1px solid #ff946e;
+    cursor: pointer;
+    /*display: none;*/
+}
+
+
+
+
+
+
+
+

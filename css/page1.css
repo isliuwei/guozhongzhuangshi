@@ -1,0 +1,32 @@
+/*-----------------------------------*/
+/*--------------  Style  ------------*/
+/*-----------------------------------*/
+
+
+/*----------样式重置----------*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+    font: 14px / 1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    background: #eee;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul,ol{
+	list-style-type: none;
+}
+
+img{
+	border: 0;
+}
+
+.wrap{
+	width: 1140px;
+	margin: 0 auto;
+}

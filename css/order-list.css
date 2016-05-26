@@ -1,0 +1,103 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	background: #f6f6f6;
+}
+#order-list h2.order-list-title{
+	background: rgb(66,165,230);
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 300;
+}
+#order-state{
+	display: block;
+	width: 100%;
+	height: 35px;
+	background: rgb(209,234,247);
+	line-height: 35px;
+	text-indent: 25px;
+	color: rgb(66,165,230);
+}
+#order-list ul{
+	clear: both;
+	width: 100%;
+	margin: 0 auto;
+	color: rgb(105,105,105);
+	border-bottom: 6px solid rgb(231,231,231);
+}
+#order-list ul li{
+	width: 95%;
+	/*height: 23px;*/
+	margin: 13px;
+	color: rgb(105,105,105);
+}
+#order-list .address{
+	float: right;
+	margin-right: 12px;
+	margin-left: 6px;
+	display: block;
+	width: 73%;
+}
+
+#order-list .order-timestamp{
+	color: rgb(143,143,143);
+}
+#order-list ul .order-img{
+	width: 90%;
+	margin:0 auto;
+	overflow: hidden;
+	padding-top:14px;
+	margin-bottom: 10px;
+	clear: both;
+}
+#order-list ul img{
+	float: left;
+	width: 26%;
+	height: 80px;
+	margin-right: 20px;
+}
+#order-list ul .order-infor{
+	padding-bottom: 4px;
+	border-bottom: 1px dotted rgb(143,143,143);
+}
+
+
+
+
+.pay-money{
+	background: #f6f6f6;
+	width: 50%;
+	height: 25px;
+	line-height: 25px;
+	padding: 5px 0;
+	font-size: 14px;
+	text-indent: 12px;
+	outline: none;
+	border:1px solid #ccc;
+	border-radius: 0;
+/*	-webkit-appearance: none;*/
+	margin-bottom: 10px;
+	margin-left: 8px;
+}
+form{
+	text-align: center;
+}
+
+.pay-btn{
+	margin-top: 20px;
+	margin-bottom: 30px;
+	-webkit-appearance: none;
+	outline: none;
+	border: none;
+	width: 50%;
+	height: 55px;
+	line-height: 55px;
+	color: #fff;
+	background: rgb(66,165,230);
+	font-size: 18px;
+	border-radius: 10px;
+}

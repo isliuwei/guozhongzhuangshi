@@ -1,0 +1,45 @@
+/************样式重置************/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul,ol{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+img{
+	border: 0;
+}
+body{
+	/*width: 640px;*/
+}
+
+.clearfix{
+    *+height: 1%;
+}     
+.clearfix:after{
+    content: "";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+}
+.copyright{
+	width: 100%;
+	margin-top: 20px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 16px;
+	background: #e9f1f6;
+	text-align: center;
+}
+
+
+
+

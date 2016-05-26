@@ -1,0 +1,98 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	background:rgba(231,231,231,.8);
+	font-family: "微软雅黑"；
+}
+#contact img{
+	width: 100%;
+	height: 100%;
+}
+#contact h2.contact-title{
+	font-size: 16px;
+	text-align: center;
+	padding: 14px 0;
+}
+#contact span.return{
+	display: inline-block;
+	float: left;
+	margin-left: 10px;
+	color: #b1b1ba;
+	position: absolute;
+	top: 18px;
+}
+#contact .contact-info{
+	
+	width: 88%;
+	margin: 12px auto;
+		
+}
+#contact .contact-info li{
+	color: #617679;
+	/*margin: 0 20px 0px 20px;*/
+	font-size: 15px;
+	height: 26px;
+	line-height: 26px;
+	border-bottom: 1px solid #8a8b93;
+	color: #28405a;
+
+	
+}
+#contact .contact-info li a{
+	color: #28405a;
+	font-size: 15px;
+ß
+}
+#contact .contact-info .address{
+	font-size: 14px;
+	color: #28405a;
+}
+
+#contact .feedback h2.feedback-title{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #312e2e;
+	height: 38px;
+	line-height: 38px;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	text-align: center;
+	
+}
+#contact #fed-con{
+	display: block;
+	margin: 0 auto;
+	height: 100px;
+	width: 70%;
+	padding: 5%;
+	font-size: 13px;
+	color: #c2bfc9;
+	color: #000;
+	resize: none;
+	outline: none;
+	border: 1px solid #000;
+	border-radius: 1px;
+}
+#contact .sub-btn{
+	-webkit-appearance: none;
+	font-size: 18px;
+	color: #fff;
+	text-shadow: 1px 0px 0px #fff;
+	outline: none;
+	border: none;
+	display: block;
+	margin: 30px auto;
+	width: 80%;
+	height: 60px;
+	cursor: pointer;
+	background: #6497e8;
+	border: 1px solid #6497e8;
+	border-radius: 15px;
+	margin-bottom: 20px;
+	
+}
+
+
+
+
+

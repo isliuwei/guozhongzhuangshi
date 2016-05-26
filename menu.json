@@ -1,0 +1,56 @@
+{
+     "button":
+    [
+	    
+	    	{
+	            "type": "view", 
+	            "name": "我要预约", 
+	            "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx8bdd74650fd816e3&redirect_uri=http://www.guozhongzhuangshi.com/welcome/weixin_index&response_type=code&scope=snsapi_base&state=1#wechat_redirect"
+	        }, 
+	        {
+	            "type": "view", 
+	            "name": "建材展示", 
+	           "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx8bdd74650fd816e3&redirect_uri=http://www.guozhongzhuangshi.com/welcome/product_list&response_type=code&scope=snsapi_base&state=1#wechat_redirect"
+	        },	        
+			{
+	           "name":"联系我们",
+	           "sub_button":[
+		           {	
+		               "type":"view",
+		               "name":"关于我们",
+		               "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx8bdd74650fd816e3&redirect_uri=http://www.guozhongzhuangshi.com/welcome/contact&response_type=code&scope=snsapi_base&state=1#wechat_redirect"
+		            },
+		            {
+		               "type":"view",
+		               "name":"订单查询",
+		               "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx8bdd74650fd816e3&redirect_uri=http://www.guozhongzhuangshi.com/welcome/valid&response_type=code&scope=snsapi_base&state=1#wechat_redirect"
+		            },
+	            ]
+	       	}    
+	    ]
+ }
+
+
+/**
+
+ apikey：2wk9ek8ddsjznx88ddsjakdds83deskc
+商户支付账号：
+
+
+	const APPID = 'wx8bdd74650fd816e3';
+	const MCHID = '1334436001';
+	const KEY = '2wk9ek8ddsjznx88ddsjakdds83deskc';
+	const APPSECRET = '1363298f77bfc489f6935e44508e9747';
+
+
+
+
+
+
+
+wx8bdd74650fd816e3
+
+f44562e1b40a00e8d19ffabd18ba131e
+
+
+*/

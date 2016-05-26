@@ -1,0 +1,104 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	background: #f6f6f6;
+}
+/*#valid h2.valid-title{
+
+.valid-tel{
+	background: #f6f6f6;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	padding: 5px 0;
+	font-size: 16px;
+	text-indent: 20px;
+	outline: none;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-left: none;
+	border-right: none;
+}
+form{
+	text-align: center;
+}
+.valid-btn{
+	margin-top: 40px;
+	-webkit-appearance: none;
+	outline: none;
+	border: none;
+	width: 90%;
+	height: 55px;
+	line-height: 55px;
+	color: #fff;
+	background: #bddd22;
+	font-size: 18px;
+	border-radius: 10px;
+}*/
+#valid{
+	width:100%;
+	height:100%;
+	background: url(../img/valid-bg.jpg) no-repeat;
+	-webkit-background-size:100% 100%;
+	-moz-background-size:100% 100%;  
+    background-size:100% 100%; 
+    position: relative;
+}
+.valid-tel{
+	width: 60%;
+	height: 32px;
+	line-height: 44px;
+	padding: 5px 0;
+	position: absolute;
+	left: 20%;
+	top: 50%;
+	padding-top:10px;
+	border-radius: 16px;
+	font-size: 16px;
+	border: 1px solid #fff;
+	text-indent: 18px;
+	background: url(../img/valid-input-bg.png) no-repeat;
+}
+.valid-btn{
+	width: 60%;
+	height: 50px;
+	background: url(../img/valid-btn-bg.png);
+	color: rgb(21,82,115);
+	line-height: 50px;
+	font-size: 30px;
+	text-align: center;
+	position: absolute;
+	left: 20%;
+	top: 72%;
+	border-radius: 30px;
+	font-size: 16px;
+	border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

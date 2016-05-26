@@ -1,0 +1,40 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	background: #f6f6f6;
+}
+#order-none h2.order-none-title{
+	background: #fff;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	padding: 5px 0;
+	/*margin-bottom: 20px 0px;*/
+	margin-bottom: 40px;
+	text-align: center;
+	color: #000;
+	font-size: 20px;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+}
+#order-none .go-order{
+	margin-top: 100px;
+}
+#order-none .go-order .tip{
+	text-align: center;
+	font-size: 18px;
+	color: #aaa;
+	line-height: 30px;
+}
+#order-none .go-order .find{
+	display: block;
+	width: 140px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	background: #bddd22;
+	border-radius: 5px;
+	margin: 40px auto;
+}

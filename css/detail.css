@@ -1,0 +1,174 @@
+ .detail-selected{
+ 	background: #6497e8;
+ 	color: #fff;
+ }
+
+  .common{
+	font-size: 18px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+    text-indent: 0.5em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #515254;
+}
+ .segment{
+	width: 100%;
+	height:2px;
+	background-color: #6497e8;
+	opacity: 0.8;
+}
+
+#header{
+	width: 100%;
+	height: 225px;
+	position: relative;
+}
+#header div{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	font-size: 18px;
+	font-weight: 900;
+	background:rgba(0,0,0,.6);
+	color: #fff;
+	text-align: center;
+	
+	position: absolute;
+	top:0;
+
+}
+#header img{
+	height: 100%;
+	width: 100%;
+}
+
+.liroduct{
+	width: 100%；
+}
+.liroduct ul{
+	display: flex;
+	display: -webkit-flex;
+	flex-flow:row wrap;
+	-webkit-flex-flow:row wrap;
+ 	justify-content: space-between;
+    -webkit-justify-content:space-between; 
+	margin:0 auto;
+	width: 94%;
+	padding: 8px 0;
+}
+.liroduct ul li{
+	flex:0 1 auto;
+	-webkit-flex:0 1 auto;
+	width: 46%;
+	height: 47px;
+	margin-bottom: 4px;
+	margin-top: 4px;
+	font-size: 14px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 47px;
+	box-shadow: 4px 2px 1px #edeff0;
+	font-family: Helvetica,sans-serif;
+	
+}
+.liroduct ul li a{
+	color: #333337;
+}
+ .liroduct ul li.detail-selected a{
+ 	color: #fff;
+ }
+.detail-order img{
+	width: 100%;
+	height: 120px;
+}
+#detail-case{
+	margin-bottom: 80px;
+}
+#detail-case li{
+	border-bottom: 1px solid #c4c4c4;
+	padding: 8px 0;
+}
+#detail-case .user-name{
+	font-size: 14px;
+	text-indent: 8px;
+	padding: 6px;
+	color: #000;
+}
+#detail-case .user-comment{
+	font-size: 10px;
+	color: #808286;
+	/* text-indent: 12px; */
+	padding:0 13px;
+}
+#detail-case .user-address{
+	color: #9da1a8;
+	clear: both;
+	text-indent: 12px;
+	padding: 6px 0;
+	font-size: 8px;
+}
+#detail-case img{
+	width: 44%;
+	height: 102px;
+	padding-top: 4px;
+}
+#detail-case .case1{
+	float: left;
+	padding-left: 14px;
+}
+#detail-case .case2{
+	float: right;
+	padding-right: 14px;
+}
+/********detail-free开始************/
+#detail-free{
+	height: 50px;
+	width: 100%;
+	background: #323232;
+	color: #fff;
+	position: fixed;
+	bottom: 10px;
+}
+ #detail-free .detail-item{
+	/*font-size: 10px;*/
+	text-indent: 10px;
+	height: 50px;
+	line-height: 50px;
+ 	display: inline-block;
+	float: left;
+	width: 26%;
+} 
+#detail-free .detail-submit{
+	width: 29%;
+	float: right;
+	height: 50px;
+	line-height: 50px;
+	display: inline-block;
+	background: #ff4856;
+	text-align: center;
+}
+#detail-free .detail-submit a{
+	font-weight: 900;
+}
+#detail-free .detail-price{
+	line-height: 50px;
+	float: right;
+}
+
+
+#detail-free strong{
+	font-size: 26px;
+}
+#detail-free .detail-submit a{
+	display: inline-block;
+	font-size: 24px;
+	color: #fff;
+	line-height: 50px;
+
+}
+
+/********detail-free结束************/

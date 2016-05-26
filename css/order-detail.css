@@ -1,0 +1,93 @@
+html,body{
+	width: 100%;
+	height: 100%;
+
+}
+
+#orderInfo{
+	/*position: relative;*/
+	background: #f6f6f6;
+	border-bottom: 1px solid #e5e4e4;
+
+}
+
+#orderInfo h2.orderInfo-title{
+	font-size: 16px;
+	text-align: center;
+	padding: 18px 0;
+	background: #fff;
+	border-bottom: 1px solid #e5e4e4;
+	
+}
+#orderInfo span.return{
+	display: inline-block;
+	float: left;
+	margin-left: 10px;
+	color: #b1b1ba;
+	position: absolute;
+	top: 18px;
+}
+#order-detail{
+	width: 95%;
+	margin: 40px auto;
+
+}
+#order-detail .order-detail-title{
+	background: #000;
+	height: 30px;
+	line-height: 30px;
+	position: relative;
+	font-size: 10px;
+} 
+#order-detail .order-detail-title span.order-num{
+	color: #fff;
+	display: inline-block;
+	position: absolute;
+	left: 5px;
+}
+#order-detail .order-detail-title span.order-time{
+	color: #fff;
+	display: inline-block;
+	position: absolute;
+	right: 5px;
+}
+#order-detail .order-info{
+	background: #faff72;
+	padding: 10px 10px;
+}
+#order-detail .order-info li{
+	margin-bottom: 10px;
+}
+#order-detail .order-info li span{
+	font-weight: 900;
+}
+#order-tip{
+	margin: 20px auto;
+	text-align: center;
+}
+#order-tip i{
+	font-size: 50px;
+	color: #afdd22;
+}
+#order-tip h2.order-tip-title{
+	color: #afdd22;
+	margin-top: 10px;
+}
+#order-tip p.order-tip-content{
+	line-height: 20px;
+	margin: 20px 20px;
+	color: #6b6882;
+}
+#order-tip a.return-index{
+	margin: 40px auto;
+	display: block;
+	width: 90%;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	font-size: 20px;
+	background: #bddd22;
+	border-radius: 10px;
+}
+
+

@@ -1,0 +1,105 @@
+/********nav开始*********/
+#nav{
+	width: 90%;
+	height: 50px;
+	margin: 0 auto;
+	border-bottom: 1px solid #6497e8;
+	display: flex;
+	display: -webkit-flex;
+	-webkit-flex-direction:row;
+	flex-direction:row;
+}
+#nav li{
+	font-size: 18px;
+	font-weight: 900;
+	text-align: center;
+	line-height: 50px;
+	color: #83838d; 
+	cursor: pointer;
+	-webkit-flex:1;
+	flex:1;
+	background: url(../img/nav-bg.jpg) no-repeat right 15px;
+}
+#nav #end{
+	background: none;
+}
+#nav .selected{
+	border-bottom: 4px solid #6497e8;
+}
+/********nav结束*********/
+
+
+
+
+/********container开始************/
+#container{
+	/*height: 566px;*/
+	width: 100%;
+	margin-top: 11px;
+}
+#container .item{
+	/*height: 566px;*/
+ 	display: none; 
+ }
+#container .selected{
+	display: block;
+}
+#container .item li{
+	width: 94%;
+	height: 80px;
+	border: 1px solid #d4d4d4;
+	margin: 0 auto;
+	margin-bottom: 12px;
+
+}
+#container .item img{
+	width: 28%;
+	height: 78%;
+	float: left;
+	margin: 9px 9px 7px;
+}
+#container .right{
+	float: right;
+	width: 63%;
+	height: 77px;
+	margin-top: 9px;
+	margin-right: 2px;
+}
+#container .detail{
+	height: 24px;
+	width: 100%;
+	border-bottom: 1px solid #d4d4d4;
+	color :#333333;
+}
+#container .title{
+	font-size: 16px;
+	margin-left: 2px;
+}
+#container .top .price{
+	color: red;
+	font-size: 18px;
+
+}
+#container h4{
+	color: #686868;
+	margin-top: 11px;
+	font-size: 12px;
+}
+#container .top{
+	float: right;
+	margin-right: 4px;
+	font-size: 8px;
+}
+
+/********container结束************/
+
+
+.copyright{
+	width: 100%;
+	margin-top: 20px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 16px;
+	background: #e9f1f6;
+	text-align: center;
+}

@@ -1,0 +1,60 @@
+.admin-content{
+	background: #10a0ea;
+	padding: 80px 0 0 0;
+	position: relative;
+}
+.admin-content h1{
+	font-size: 56px;
+	color: #fff;
+	margin-left: 50px;
+}
+.admin-content span{
+	font-size: 56px;
+	color: #fff;
+}
+.admin-content h2{
+	font-size: 20px;
+	color: #fff;
+	margin-left: 100px;
+}
+.social-footer{
+	height: 114px;
+	background: #555;
+	position: relative;
+}
+.admin-content ul{
+	height: 114px;
+	list-style-type: none;
+	position: absolute;
+	right: 40px;
+	top: 35px;
+	
+}
+.admin-content ul li{
+	text-align: center;
+	float: left;
+}
+.admin-content ul li a{
+	display: block;
+    height: 40px;
+    width: 40px;
+    background: #999;
+    color: #555;
+    font-size: 28px;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+   
+}
+.admin-content ul li a span{
+	font-size: 28px;
+	color: #555;
+}
+.admin-content ul li a:hover{
+	background: #fff;
+	border: 1px solid blue;
+	/*#4aaa4a*/
+}
+
+
+
